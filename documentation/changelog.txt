@@ -1,4 +1,0 @@
-Version 1.9.0 - (Sep 29, 2021)
-
-Added
-- Checkout Page

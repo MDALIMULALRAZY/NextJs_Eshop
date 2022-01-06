@@ -1,15 +1,8 @@
-const path = require('path');
-
 module.exports = {
-    sassOptions: {
-        includePaths: [path.join(__dirname, 'assets/scss')],
+    images: {
+        domains : ['www.mdcfoundation.com', 'images.pexels.com',"d3o2e4jr3mxnm3.cloudfront.net", "cdn.shopify.com", "www.prada.com","www.burdastyle.com","images.ctfassets.net","www.kindpng.com","www.pngarts.com", "m.media-amazon.com","assets.ajio.com","static.zara.net","images.unsplash.com", "cdn-icons.flaticon.com","trueveda.in"]
     },
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-
-        return config;
+    env: {
+        stripe_publish_key : 'pk_test_51JjL5USGduCGMmeW4MlMo77PbzhfKI5HsBlyDFWWrxWFHWIYLxgKlixj1719TsEXmHaIGT7p4A8bFmONTy4fZMdK00eIUptJSs'
     }
 }
