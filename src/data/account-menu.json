@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "iconClass": "icon-f-94",
+    "text": "Comptes",
+    "link": "/account/register"
+  },
+  {
+    "id": 2,
+    "iconClass": "icon-f-39",
+    "text": "Panier",
+    "link": "/cart"
+  },
+  
+  {
+    "id": 5,
+    "iconClass": "icon-f-76",
+    "text": "Se Connecter",
+    "link": "/account/login"
+  },
+  {
+    "id": 6,
+    "iconClass": "icon-f-94",
+    "text": "Créer un compte",
+    "link": "/account/register"
+  }
+]
